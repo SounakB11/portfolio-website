@@ -1,0 +1,141 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul li a:hover {
+    color: #77dd77;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+section#home {
+    background: #0779e4;
+    color: white;
+}
+
+section#home h2 {
+    font-size: 40px;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    transition: transform 0.2s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 80%;
+    max-width: 600px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #0779e4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
